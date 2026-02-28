@@ -34,8 +34,9 @@ function render(userList){
             <p>id: ${user.id ?? ""}</p>
         </article>`;
 
-        userGrid.innerHTML = htmlString;
+        
     });
+    userGrid.innerHTML = htmlString;
 }
 
 viewToggleButton.addEventListener("click", () => {
